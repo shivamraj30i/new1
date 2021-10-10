@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2, Flex with Images</title>
+    <style>
+         body{
+            background-color: rgb(85, 169, 238);
+        }
+        h1, h2, h3 {
+    color: rgb(189, 8, 32);
+}
+h1 {
+    text-decoration: underline;
+}
+        .container{
+            width: auto;
+        height: auto;
+        margin: 10px;
+        border: 7px solid rgb(75, 5, 238);
+       background-color: rgb(219, 108, 204);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space around;
+        }
+        .flex-box
+    {
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+        margin: 10px;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Flex With Images</h1>
+    <h2>Name : Shivam Raj</h2>
+    <h3>Roll : 2006112</h3>
+    <h3>Branch : CSE 2</h3>
+    <br>
+    <div>
+        <p>The container is displaying flex-box property having flex-direction row wise.</p>
+    </div>
+    <div class="container">
+        <img class="flex-box" src="dhoni.jpg">
+        <img class="flex-box" src="dhoni2.jpg">
+        <img class="flex-box" src="park.jpg">
+        <img class="flex-box" src="rohit.jpg">
+       </div>
+    
+</body>
+</html>
