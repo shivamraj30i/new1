@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>2006112, CSL3403 Assignment</title>
+</head>
+<body>
+    <center>
+    <h1 style="color: rgb(236, 57, 33);"> SHIVAM RAJ, 2006112, JAVA SCRIPT ASSIGNMENT</h1><hr><br>
+    <h2 style="color: rgb(158, 13, 139);">Open the Console to view the details of 3 pesons.</h2>
+    </center>
+</body>
+
+
+<script>
+    function Person(FirstName, LastName, Office_Address)
+{
+  this.FirstName = FirstName;
+  this.LastName = LastName;
+  this.Office_Address = Office_Address;
+}
+
+const p1 = new Person("Shivam","Raj","Begusarai");
+const p2 = new Person("Rajeev","Ranjan","Bihar");
+const p3 = new Person("Ayush","Kumar","Bihar");
+console.log('First Person:->');
+console.log(p1.FirstName,p1.LastName,p1.Office_Address);
+console.log('Second Person:->');
+console.log(p2.FirstName,p2.LastName,p2.Office_Address);
+console.log('Third Person:->');
+console.log(p3.FirstName,p3.LastName,p3.Office_Address)
+</script>
+</html>
